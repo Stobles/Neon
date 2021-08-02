@@ -449,6 +449,10 @@
         left: 0;
         top: -10%;
 
+        @media(max-width: $mp1+px){
+            top: 15%;
+        }
+
         &--right{
             display: none;
             @media(min-width: $md2+px){
