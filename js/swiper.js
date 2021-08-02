@@ -5,6 +5,11 @@ new Swiper ('.products__slider--container', {
     centeredSlides: true,
     loop: true,
 
+    navigation: {
+        nextEl: '.products__btn--next',
+        prevEl: '.products__btn--prev',
+      },
+
     breakpoints:{
 
         1200:{
